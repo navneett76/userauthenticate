@@ -1,0 +1,58 @@
+{
+  "name": "clickberry-auth-api",
+  "version": "0.4.3",
+  "main": "app.js",
+  "description": "Auth. micro-service on Node.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha"
+  },
+  "author": "Konstantin Altuhov",
+  "keywords": [
+    "clickberry",
+    "webservices",
+    "node.js",
+    "auth",
+    "api",
+    "jwt"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clickberry/auth-api-nodejs"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/clickberry/auth-api-nodejs/issues"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.12.4",
+    "bootstrap": "^3.3.5",
+    "clickberry-config": "git+https://github.com/clickberry/config-nodejs.git#master",
+    "clickberry-http-errors": "github:clickberry/http-errors-nodejs#master",
+    "clickberry-nsq-publisher": "https://github.com/clickberry/nsq-publisher-nodejs#master",
+    "connect-mongo": "^0.8.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.7.1",
+    "crypto": "0.0.3",
+    "debug": "~2.2.0",
+    "events": "^1.0.2",
+    "express": "^4.12.4",
+    "express-session": "^1.11.3",
+    "jsonwebtoken": "^5.7.0",
+    "moment": "^2.10.6",
+    "mongoose": "^4.13.14",
+    "morgan": "^1.5.3",
+    "passport": "^0.2.2",
+    "passport-facebook": "^2.0.0",
+    "passport-google-oauth": "^0.2.0",
+    "passport-jwt": "^1.1.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.3",
+    "passport-vkontakte": "^0.4.0",
+    "q": "^1.4.1",
+    "shortid": "^2.2.2",
+    "util": "^0.10.3"
+  }
+}

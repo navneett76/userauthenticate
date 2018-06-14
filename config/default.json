@@ -1,0 +1,22 @@
+{
+  "protocol": "http",
+  "port": "8080",
+  "token": {
+    "accessTimeout": "1800",
+    "refreshTimeout": "604800",
+    "exchangeTimeout": "300",
+    "maxSessions": "10"
+  },
+  "facebook": {
+    "callbackURL": "/facebook/callback"
+  },
+  "twitter": {
+    "callbackURL": "/twitter/callback"
+  },
+  "google": {
+    "callbackURL": "/google/callback"
+  },
+  "vk": {
+    "callbackURL": "/vk/callback"
+  }
+}
